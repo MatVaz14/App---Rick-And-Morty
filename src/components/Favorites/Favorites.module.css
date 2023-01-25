@@ -1,0 +1,26 @@
+.containerFilters {
+    display: flex;
+    justify-content: center;
+    background-color: #283d8f8c;
+    border-bottom: 5px solid #121e5194;
+    padding: 5px;
+}
+.containerFilter{
+    margin: 2px;
+    border-radius: 10px;
+    box-shadow:  0px 14px 30px -2px #2da2a8c0;
+}
+.containerCards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selectStyle, option{
+    color: #e9efed;
+    font-size: 16px;
+    font-family: monospace;
+    height: 35px;
+    border-radius: 5px;
+    border: 4px solid #283d8f75;
+    background-color: #283d8f46;
+}

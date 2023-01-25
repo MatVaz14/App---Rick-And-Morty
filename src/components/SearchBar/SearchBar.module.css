@@ -1,0 +1,35 @@
+.containerInputs {
+    display: flex;
+    height: min-content;
+}
+
+.buttonStyle {
+    margin: auto;
+    border: none;
+    transition: 0.5s;
+    width: 125px;
+    height: 24.5px;
+    font-size: 16px;
+    color: #18f3ff;
+    border-radius:0px 10px 10px 0px;
+    background-color: #20cfd885;
+}
+.buttonStyle:hover {
+    transition: 0.5s;
+    background-color: #2080d99c;
+}
+.inputStyle {
+    color: #18f3ff;
+    margin: auto;
+    width: 200px;
+    border: none;
+    height: 22.7px;
+    font-size: 18px;
+    background-color: #20cfd885;
+    border-radius:10px 0px 0px 10px;
+}
+
+::placeholder{
+    font-family: monospace;
+    color: rgba(0, 0, 0, 0.795);
+}

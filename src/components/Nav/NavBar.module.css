@@ -1,0 +1,23 @@
+.navContainer {
+    border: 5px solid #005892aa;
+    background-color: #00204ac1;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 2px 35px 66px -18px rgba(0,87,146,1);
+}
+
+.navBar {
+    display: inline-block;
+    font-size: 30px;
+    margin: 1em;
+    font-family:monospace;
+    color: #00bbf0;
+}
+
+.navBar:hover {
+    transition: 0.5s;
+    color: #89e6ff;
+}
+

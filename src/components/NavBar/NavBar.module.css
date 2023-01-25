@@ -1,0 +1,48 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    padding-top: 1%;
+    background-color: #283d8f8c;
+    border-bottom: 5px solid #121e5194;
+}
+
+.linkStyle {
+    transition: 0.5s;
+    color: #e9efed;
+    font-size: 26px;
+    font-family: monospace;
+    text-decoration: none;
+    text-shadow: 0 0 5px #20d0d8, 0 0 10px #121e51, 0 0 15px #121e51, 0 0 20px #2080d98f, 0 0 30px #2080d98f, 0 0 40px #2080d98f, 0 0 55px #2080d98f, 0 0 75px #2080d9;
+}
+
+.linkStyle:hover {
+    transition: 0.5s;
+    color: #20d0d8;
+}
+
+.buttonLogout {
+    transition: 0.5s;
+    border-radius: 10px;
+    border: none;
+    font-family: monospace;
+    background-color: #283d8fda;
+    color: #e9efed;
+    box-shadow:  0px 18px 49px 4px #20cfd8c0;
+    font-size: 16px;
+    width: 100px;
+    height: 25px;
+}
+
+.buttonLogout:hover {
+    transition: 0.5s;
+    color: #20d0d8;
+    background-color: #2080d9;
+}
+
+.containerSearch {
+    height: min-content;
+    border-radius: 10px;
+    box-shadow:  0px 14px 30px -2px #20cfd8c0;
+}

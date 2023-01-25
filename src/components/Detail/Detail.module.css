@@ -1,0 +1,52 @@
+.container{
+    border: 5px solid #121e51bd;
+    border-radius: 10px;
+    background-color: #283d8f73;
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow:  0px 18px 49px 4px #3751b8ee;
+}
+
+.containerDetail {
+    font-family: monospace;
+    border: 5px solid #121e51bd;
+    border-radius: 10px;
+    background-color: #283d8f73;
+    box-shadow:  0px 18px 49px 4px #3751b8ee;
+    height: 400px;
+    padding: 2%;
+}
+.containerDetails {
+    margin: auto;
+    padding: 5%;
+    border: 2px solid #121e51bd;
+    border-radius: 10px;
+}
+.containerDetails h3 {
+    color: #e9efed;
+    font-size: 24px;
+    text-shadow: 0 0 5px #20d0d8, 0 0 10px #121e51, 0 0 15px #121e51, 0 0 20px #2080d98f, 0 0 30px #2080d98f, 0 0 40px #2080d98f, 0 0 55px #2080d98f, 0 0 75px #2080d9;
+}
+.containerDetails p {
+    color: #e9efed;
+    font-size: 20px;
+}
+.containerDetail h1 {
+    font-size: 32px;
+    text-align: center;
+    color: #e9efed;
+    text-shadow: 0 0 5px #20d0d8, 0 0 10px #121e51, 0 0 15px #121e51, 0 0 20px #2080d98f, 0 0 30px #2080d98f, 0 0 40px #2080d98f, 0 0 55px #2080d98f, 0 0 75px #2080d9;
+}
+
+.containerImg {
+    display: flex;
+}
+
+.styleImg {
+    margin: auto;
+        box-shadow:  0px 18px 49px 4px #3751b8ee;
+}
