@@ -36,10 +36,11 @@ export default function Form({ login }) {
             <p>Username</p>
             <input
               className={style.inputEnter}
-              type="text"
+              type="email"
               name="username"
               placeholder="Enter Username"
               onChange={(event) => handleInputChange(event)}
+              required
             ></input>
           </div>
           <div className={style.errorContainer}>
@@ -53,6 +54,7 @@ export default function Form({ login }) {
               name="password"
               placeholder="Enter Password"
               onChange={(event) => handleInputChange(event)}
+              required
             ></input>
           </div>
           <div className={style.errorContainer}>
@@ -64,33 +66,6 @@ export default function Form({ login }) {
             </button>
           </div>
         </form>
-
-        <div className={style.containerSocial}>
-          <a href="https://www.instagram.com/mativazquez_17/">
-            <img
-              className={style.imgStyle}
-              src={instaLogo}
-              width="40px"
-              height="40px"
-            />
-          </a>
-          <a href="/">
-            <img
-              className={style.imgStyle}
-              src={linkedinLogo}
-              width="40px"
-              height="40px"
-            />
-          </a>
-          <a href="/">
-            <img
-              className={style.imgStyle}
-              src={logoGithub}
-              width="40px"
-              height="40px"
-            />
-          </a>
-        </div>
       </div>
     </div>
   );

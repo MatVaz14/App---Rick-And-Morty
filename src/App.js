@@ -8,6 +8,7 @@ import Form from "./components/Form/Form";
 import NavBar from "./components/NavBar/NavBar";
 import Favorites from "./components/Favorites/Favorites";
 import Portfolio from "./components/Portafolio/Portfolio";
+import Landing from "./components/Landing/Landing";
 
 function App() {
   const location = useLocation();
@@ -19,7 +20,7 @@ function App() {
   const navigate = useNavigate();
 
   const login = (userData) => {
-    if (userData.password === password && userData.username === username) {
+    if (userData.password > 6 && userData.username) {
       setAccess(true);
       navigate("/home");
     }
@@ -55,7 +56,7 @@ function App() {
       return data.filter((element) => element.id !== id);
     });
   };
-
+//<Route exact path="/" element={<Form login={login} />}></Route>
   return (
     <div>
       <div>
@@ -64,7 +65,7 @@ function App() {
         )}
       </div>
       <Routes>
-        <Route exact path="/" element={<Form login={login} />}></Route>
+        <Route exact path="/" element={<Landing />}></Route>
         <Route
           path="/home"
           element={<Cards characters={characters} onClose={onClose} />}
